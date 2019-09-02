@@ -1,0 +1,3 @@
+Scheda Madre	150	5	MEDIO
+Cavo SATA	10	50	PICCOLO
+Playstation	500	20	GRANDE

@@ -1,0 +1,3 @@
+PC Portatile	400	5	MEDIO
+Cavo HDMI	10	50	PICCOLO
+Scheda Audio	100	20	MEDIO

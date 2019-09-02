@@ -1,0 +1,5 @@
+{NEGOZIO DI Riccardo Mondi}
+Incasso totale: 160.0
+[VENDITORI ASSOCIATI ORDINATI PER INCASSO CRESCENTE]
+[SELLER] Carmine Losito | Incasso totale = 10.0 euro
+[SELLER] Luigi Di Bari | Incasso totale = 150.0 euro

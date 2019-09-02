@@ -1,0 +1,13 @@
+Complessità Computazionale del metodo Manager::stampaIncassiSuFile
+
+Init pw -> +1
+pw.println -> +1
+pw.println -> +1
+init incassoTotale -> +1
+calcolo incassoTotale -> +3n + 1
+pw.println + 1
+stream.sorted() -> nlog(n) + 1 (assegnazione a venditoriOrdinati)
+venditori.forEach(println) -> +3n + 1
+pw.close() -> +1
+
+Complessità finale: 9 + 6n + nlog(n)

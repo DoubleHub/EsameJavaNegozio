@@ -1,0 +1,3 @@
+PC Fisso	500	10	GRANDE
+Cavo VGA	10	50	PICCOLO
+Scheda Video	200	20	MEDIO

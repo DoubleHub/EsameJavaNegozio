@@ -1,0 +1,4 @@
+{NEGOZIO DI Eligio Mansi}
+Incasso totale: 10.0
+[VENDITORI ASSOCIATI ORDINATI PER INCASSO CRESCENTE]
+[SELLER] Margherita Conversano | Incasso totale = 10.0 euro

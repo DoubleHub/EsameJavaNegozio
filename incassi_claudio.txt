@@ -1,0 +1,5 @@
+{NEGOZIO DI Claudio Rossi}
+Incasso totale: 710.0
+[VENDITORI ASSOCIATI ORDINATI PER INCASSO CRESCENTE]
+[SELLER] Emanuele Scarcelli | Incasso totale = 10.0 euro
+[SELLER] Flavio Conversano | Incasso totale = 700.0 euro
