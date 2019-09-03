@@ -13,12 +13,16 @@ public class Cliente extends Persona {
         this.budget = budget;
     }
 
-    public void compraArticolo(String nomeArticolo, Venditore venditore) throws ArticleNotFoundException, InsufficientBudgetException, InsufficientQuantityException {
-        compraArticolo(
-            venditore.getDirettoreAssociato().getArticoloByNome(nomeArticolo)
-                .orElseThrow(() -> new ArticleNotFoundException(venditore, nomeArticolo)),
-            venditore
-        );
+    public void compraArticolo(String nomeArticolo, Venditore venditore) {
+        try {
+            compraArticolo(
+                venditore.getDirettoreAssociato().getArticoloByNome(nomeArticolo)
+                    .orElseThrow(() -> new ArticleNotFoundException(venditore, nomeArticolo)),
+                venditore
+            );
+        } catch (InsufficientBudgetException | ArticleNotFoundException | InsufficientQuantityException e) {
+            System.err.println(e.getMessage());
+        }
     }
 
     public void compraArticolo(Articolo articolo, Venditore venditore)
