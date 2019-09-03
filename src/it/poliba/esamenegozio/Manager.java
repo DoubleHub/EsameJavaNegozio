@@ -93,7 +93,7 @@ public class Manager extends Persona {
         int numArticoli = getInventario().size();
 
         return "[MANAGER] " + getNome() + " " + getCognome() + " | " +
-        numVenditoriAssociati + " venditori associat" + (numVenditoriAssociati == 1 ? "o" : "i") + ", " +
+        numVenditoriAssociati + " venditor" + (numVenditoriAssociati == 1 ? "e" : "i") + " associat" + (numVenditoriAssociati == 1 ? "o" : "i") + ", " +
         numArticoli + " articol" + (numArticoli == 1 ? "o" : "i") + " in inventario";
     }
 
