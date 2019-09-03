@@ -63,8 +63,6 @@ public class Main {
         } catch (IOException e) {
             System.err.println("IOException during inventory load from file!");
             e.printStackTrace();
-        } catch (InsufficientBudgetException | ArticleNotFoundException | InsufficientQuantityException e) {
-            System.err.println(e.getMessage());
         }
     }
 
