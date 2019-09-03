@@ -61,7 +61,7 @@ public class Main {
             System.out.println(client_Giovanni.getInfo());
             System.out.println(client_Stefania.getInfo());
         } catch (IOException e) {
-            System.err.println("IOException during inventory load from file!");
+            System.err.println("Errore I/O durante l'esecuzione della simulazione! Stack trace:");
             e.printStackTrace();
         }
     }
